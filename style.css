@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-top: 2%;
     /* position: absolute;
     top: 40%;
     left: 50%;
@@ -55,7 +56,7 @@ button{
     font-size: larger;
     font-weight: 800;
 }
-.btn{
+.btn,.btns{
     background-color: #d8d9db;
     height: 100px;
     font-size: 40px;
@@ -71,17 +72,14 @@ button{
     background-color: #dfb07e;
 }
 .btn-1{
-    /* width: 200px; 198px*/
     flex-basis:198.8px ;
 }
 
 .btn-2{
-    /* width: 100px; */
     flex-basis:98px ;
 }
 
 .btn-3{
-    /* width: 300px; */
     flex-basis:299.2px ;
 }
 
